@@ -1,0 +1,94 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1f1f1f;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcccb;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #1f1f1f;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 50%; /* Adjust image size for mobile */
+    height: auto;
+}
+
+/* Add space between paragraph area and footer */
+.centered-paragraph {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin only at the bottom */
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+
+.footer-gap {
+    margin-bottom: 220px; /* Adjust the margin to accommodate the image and footer */
+    text-align: center; /* Center-align the image */
+}
+
+.footer-image {
+    width: 200px; /* Adjust the width as desired for a medium size */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Display the image as inline-block for centering */
+    vertical-align: middle; /* Vertically center the image */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent background */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1; /* Ensure it appears above other elements */
+}
+footer p {
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffcccb;
+}
+
+.top-left {
+    left: 10px;
+}
+
+.top-right {
+    right: 10px;
+}
